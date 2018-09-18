@@ -22,7 +22,7 @@ module.exports = {
       ref  : 'origin/testing',
       repo : 'https://github.com/master312/coca-house-ctrl.git',
       path : '/home/deploy/coca-house-ctrl',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env staging'
     },
     
     production : {
