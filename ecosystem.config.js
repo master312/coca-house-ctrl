@@ -19,7 +19,7 @@ module.exports = {
       host : '192.168.1.199',
       ref  : 'origin/testing',
       repo : 'git@github.com:master312/coca-house-ctrl.git',
-      path : '~/coca-house-ctrl',
+      path : '/home/deploy/coca-house-ctrl',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
     
@@ -28,7 +28,7 @@ module.exports = {
       host : '192.168.1.199',
       ref  : 'origin/origin',
       repo : 'git@github.com:master312/coca-house-ctrl.git',
-      path : '~/coca-house-ctrl',
+      path : '/home/deploy/coca-house-ctrl',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
