@@ -7,9 +7,11 @@ module.exports = {
     },
     env_production : {
       NODE_ENV: 'production'
+      PORT: 3000
     },
     env_staging : {
-      // ENVIRONMENT VARIABLES FOR STAGING
+      NODE_ENV: 'staging'
+      PORT: 3001
     }
   }],
 
