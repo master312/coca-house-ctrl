@@ -4,6 +4,7 @@ var app = express();
 // Routes
 app.get('/', function(req, res) {
   res.send('Hello World! 666');
+  console.log("Got request");
 });
 
 // Listen
