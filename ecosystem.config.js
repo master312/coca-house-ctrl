@@ -15,7 +15,7 @@ module.exports = {
 
   deploy : {
     staging : {
-      user : 'node',
+      user : 'deploy',
       host : '192.168.1.199',
       ref  : 'origin/testing',
       repo : 'git@github.com:master312/coca-house-ctrl.git',
@@ -24,7 +24,7 @@ module.exports = {
     },
     
     production : {
-      user : 'node',
+      user : 'deploy',
       host : '192.168.1.199',
       ref  : 'origin/origin',
       repo : 'git@github.com:master312/coca-house-ctrl.git',
